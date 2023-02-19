@@ -25,6 +25,7 @@
  */
 function getVolumeOfBox(box) {
   // write your code here & return value
+  return Number((box.length * box.width * box.height).toFixed(2));
 }
 
 module.exports = {

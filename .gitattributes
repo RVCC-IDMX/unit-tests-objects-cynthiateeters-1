@@ -14,9 +14,16 @@
 # If you're using Prettier, you probably want LF in .json, .md, .css,
 # and all the other files you're formatting with Prettier.
 *.json text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.scss text eol=lf
+
 # An alternative is to ditch the above and make everything have LF on
 # checkin/checkout, but I'm not sure what will happen with binary files.
-# * text eol=lf
+* text eol=lf
 
 # Declare files that are binary so that their eol should not be modified.
 # Git, with the first line of this file, will probably not modify binary
